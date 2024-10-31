@@ -9,10 +9,7 @@ struct ibv_mr *mr;
 // Memory Reg Example
 
 struct ibv_mr *ibv_reg_mr(struct ibv_pd *pd,
-					   
-	 void *addr, size_t length,
-		
-	 enum ibv_access_flags access); 
+					   void *addr, size_t length, enum ibv_access_flags access); 
 
 
 /* Notice the following fields in struct ibv_mr:

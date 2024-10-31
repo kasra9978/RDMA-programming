@@ -1,5 +1,7 @@
 #define size_t int 
+
 struct ibv_pd *pd;
+
 struct ibv_mr *mr;
 
 
